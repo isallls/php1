@@ -27,4 +27,3 @@ if (isset($_GET["buttonSubmit"])) {
     $tahun = $_GET["tahun"];
     $jumlahBarang = $_GET["jumlahB"];
 }
-echo "hallo owrld";
