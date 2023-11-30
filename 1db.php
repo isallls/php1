@@ -28,5 +28,3 @@ if (isset($_GET["buttonSubmit"])) {
     $jumlahBarang = $_GET["jumlahB"];
 }
 echo "hallo owrld";
-echo "hallo owrld2";
-echo "hallo master";
