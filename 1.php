@@ -12,6 +12,8 @@ include "1db.php";
 </head>
 
 <body>
+    <h1>echo php</h1>
+    <a href="2.php">echo php</a>
     <div>
         <form action="">
             <label for="kodeBarang">Kode barang</label>
