@@ -68,6 +68,7 @@ include "1db.php";
         ?>
         </table>
     </div>
+    <h1>ini footer</h1>
 </body>
 
 </html>
