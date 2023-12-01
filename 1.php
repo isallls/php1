@@ -65,9 +65,14 @@ include "1db.php";
                         <center><?= $row['tahunpembuatan'] ?></center>
                     </td>
             </tr>
+            <tr>
+            </tr>
         <?php
                 }
         ?>
+        <td colspan="5">
+            <center>update stok barang</center>
+        </td>
         </table>
     </div>
     <h1>ini footer</h1>
