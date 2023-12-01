@@ -1,1 +1,1 @@
-ini buat readme banh readme ini buat dibaca 
+ini buat readme banh readme ini buat dibaca jadi dibaca
