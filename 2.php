@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="2.css">
 </head>
 
 <body>
@@ -20,8 +21,11 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aut officia corrupti labore. Assumenda quae laborum ab vel. Accusantium rerum tenetur, enim ducimus fugiat aspernatur voluptatibus quo sint quos numquam!
     </h1>
     <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vel, error, voluptate magnam consequatur, dolores iure saepe aut corrupti odit culpa excepturi commodi facere pariatur eius laboriosam possimus? Impedit, aperiam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia distinctio recusandae deserunt ipsa laudantium itaque magni dolor! Nam accusamus consequatur consectetur cupiditate provident voluptates ipsam dolorum laboriosam fuga adipisci?
     </h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem libero cum sunt aspernatur nam. Quaerat doloremque quidem rem! Laboriosam voluptatum amet minus. Culpa, laborum magni! Quia alias praesentium reprehenderit explicabo!
+    </p>
 </body>
 
 </html>
