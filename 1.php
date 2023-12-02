@@ -46,6 +46,7 @@ include "1db.php";
                 <th>stok</th>
                 <th>harga barang</th>
                 <th>tahun pembuatan</th>
+                <th>detail barang</th>
             </tr>
             <tr>
                 <?php while ($row = mysqli_fetch_assoc($kodeBarang)) { ?>
@@ -65,7 +66,7 @@ include "1db.php";
                         <center><?= $row['tahunpembuatan'] ?></center>
                     </td>
                     <td>
-                        <button>modify</button>
+                        <a href="modifyy.php?kodebarang=<?= $row['kodebarang'] ?>">modify</a>
                     </td>
             </tr>
         <?php

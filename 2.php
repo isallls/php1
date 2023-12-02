@@ -19,6 +19,8 @@
             </ul>
         </nav>
     </header>
+    <h1>kebarang <a href="1.php">barang</a></h1>
+
 
     <section class="main-section">
         <h2>Selamat Datang di Website Barang</h2>
