@@ -40,6 +40,7 @@
             <p>Deskripsi produk 2...</p>
             <button>Beli Sekarang</button>
         </div>
+        <h1>Update setiap hari</h1>
     </section>
 
     <footer>
