@@ -74,7 +74,7 @@ include "1db.php";
         ?>
         <tr>
             <td colspan="6">
-                <center>update stok harian</center>
+                <center>update stok harian setiap hari</center>
             </td>
         </tr>
         </table>
