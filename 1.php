@@ -71,6 +71,11 @@ include "1db.php";
         <?php
                 }
         ?>
+        <tr>
+            <td colspan="6">
+                <center>update stok harian</center>
+            </td>
+        </tr>
         </table>
     </div>
     <h1>ini footer</h1>
