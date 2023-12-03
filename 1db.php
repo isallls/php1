@@ -37,3 +37,7 @@ if (isset($_GET["buttonSubmit"])) {
     $jumlahBarang = $_GET["jumlahB"];
 }
 echo "hallo";
+echo "<br>";
+echo (count(mysqli_fetch_assoc($kodebarang2)));
+echo "<br>";
+var_dump(count(mysqli_fetch_assoc($kodebarang2)));
