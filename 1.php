@@ -39,6 +39,39 @@ include "1db.php";
         </form>
     </div>
     <div>
+        <form action="">
+            <button type="submit" name="table">
+                table
+            </button>
+        </form>
+    </div>
+    <?php
+    if (isset($_GET["table"])) { ?>
+        <table border="1">
+            <tr>
+                <th>kode barang</th>
+                <th>stok</th>
+                <th>nama barang</th>
+            </tr>
+            <?php foreach ($goods as $h) { ?>
+                <tr>
+                    <td><?= $h["kodebarang"] ?></td>
+                    <td><?= $h["stok"] ?></td>
+                    <td><?= $h["namabarang"] ?></td>
+                </tr>
+            <?php } ?>
+
+            <tr>
+                <td colspan="3">
+                    <center>update stok setiap hari</center>
+                </td>
+            </tr>
+        </table>
+    <?php
+    } else {
+    }
+    ?>
+    <div>
         <table border="1">
             <tr>
                 <th>kode barang</th>
@@ -49,24 +82,24 @@ include "1db.php";
                 <th>detail barang</th>
             </tr>
             <tr>
-                <?php while ($row = mysqli_fetch_assoc($kodeBarang)) { ?>
+                <?php while ($row1 = mysqli_fetch_assoc($kodeBarang2)) { ?>
                     <td>
-                        <center><?= $row['kodebarang'] ?></center>
+                        <center><?= $row1['kodebarang'] ?></center>
                     </td>
                     <td>
-                        <center><?= $row['namabarang'] ?></center>
+                        <center><?= $row1['namabarang'] ?></center>
                     </td>
                     <td>
-                        <center><?= $row['stok'] ?></center>
+                        <center><?= $row1['stok'] ?></center>
                     </td>
                     <td>
-                        <center>Rp. <?= $row['hargabarang'] ?></center>
+                        <center>Rp. <?= $row1['hargabarang'] ?></center>
                     </td>
                     <td>
-                        <center><?= $row['tahunpembuatan'] ?></center>
+                        <center><?= $row1['tahunpembuatan'] ?></center>
                     </td>
                     <td>
-                        <a href="modify.php?kodebarang=<?= $row['kodebarang'] ?>">modify</a>
+                        <a href="modify.php?kodebarang=<?= $row1['kodebarang'] ?>">modify</a>
                     </td>
             </tr>
         <?php
